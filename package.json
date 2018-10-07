@@ -1,0 +1,26 @@
+{
+  "name": "nodewallet",
+  "version": "1.0.0",
+  "description": "bitcoin wallet application based on electronjs nodejs reactjs, using testnet instead of bitcoin network for demo purpose",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavayAnand9/hackcbs.git"
+  },
+  "keywords": [
+    "blockchain",
+    "testnet",
+    "nodejs",
+    "reactjs",
+    "electronjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavayAnand9/hackcbs/issues"
+  },
+  "homepage": "https://github.com/bhavayAnand9/hackcbs#readme"
+}
