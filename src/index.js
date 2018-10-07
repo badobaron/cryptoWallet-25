@@ -20,7 +20,7 @@ const createWindow = async () => {
     // and load the index.html of the app.
     mainWindow.loadURL(`file://${__dirname}/index.html`);
 
-    //THIS WAS THE BUG THAT WAS OPENING DEVELOPER TOOLS WHEN APPLICATION STARTS
+    // THIS WAS THE BUG THAT WAS OPENING DEVELOPER TOOLS WHEN APPLICATION STARTS
     // // Open the DevTools.
     // if (isDevMode) {
     //     await installExtension(REACT_DEVELOPER_TOOLS);
