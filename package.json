@@ -5,12 +5,12 @@
   "description": "My Electron application description",
   "main": "src/index.js",
   "scripts": {
-    "start": "npm-run-all lint test electron-forge start",
+    "start": "npm-run-all lint mocha-test electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "lint": "eslint --cache --color --ext .jsx,.js src",
-    "test": "npm test"
+    "mocha-test": "npm test"
   },
   "keywords": [],
   "author": "mmichailidis",
