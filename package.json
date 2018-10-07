@@ -9,7 +9,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "test": "eslint --cache --color --ext .jsx,.js src",
+    "test": "eslint --cache --color --ext .jsx,.js src"
   },
   "keywords": [],
   "author": "mmichailidis",
